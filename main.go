@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Type that implements this interface must have a getGreeting function and must return string
+
 type bot interface {
 	getGreeting() string
 }
